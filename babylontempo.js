@@ -217,11 +217,11 @@ reearth.ui.show(`
         }
 
         addEventListener("message", e => {
-          if (e.data.type === 'widget') {
+		  if (e.source !== parent) return;
+	      if (e.data.type === 'widget') {
             console.log(e.data.property.default.graphtype);
             gtype = e.data.property.default.graphtype;
           }
-          if (e.source !== parent) return;
           if (e.data.type === 'mousedata') {
             lng = e.data.payload.lng;
             lat = e.data.payload.lat;
@@ -276,14 +276,3 @@ reearth.on('update',() => {
     property: reearth.widget.property
   }, "*");
 });
-
-/*
-reearth.on("update", send);
-send();
-
-function send() {
-  reearth.ui.postMessage({
-    property: reearth.widget.property
-  })
-}
-*/
