@@ -1,7 +1,7 @@
 # 3D Temperature Graph by Babylon.js
 Re:Earth用プラグインで、Re:Earth上に気温 or 降水量を3Dグラフで描画します。
 過去9時間分の実績と、2時間先までの予測が棒グラフで表示されます。
-![スクショ]()
+![スクショ](https://kerdy0725.github.io/reearthwidget.jpg)
 
 # Requirement
 
