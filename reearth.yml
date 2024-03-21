@@ -1,0 +1,19 @@
+id: babylontempo
+name: 3D Temperature Graph by Babylon.js
+version: 1.0.0
+extensions:
+  - id: babylontempo
+    type: widget
+    name: 3D気温情報(実績&予測) by Babylon.js
+    schema:
+      groups:
+       - id: default
+         fields:
+           - id: graphtype
+             type: string
+             title: Graph Type
+             choices:
+               - key: rain
+                 label: Rain
+               - key: temp
+                 label: Temperature
