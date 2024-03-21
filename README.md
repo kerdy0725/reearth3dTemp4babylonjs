@@ -22,8 +22,8 @@ Re:Earthのマーケットプレイスで公開しておりますが、旨く動
 右上に枠が表示され、その中にクリックされた地点の、降水量 or 気温のグラフが表示されます。
 Babylon.jsで作られておりますので、ぐるぐる回せます（笑）
 
-:::note warn
 注意
+
 Re:Earthは、WebGISとしての操作方法がありますが、Widget内はWeb3DのBabylon.js領域になるため、操作方法が異なりますので、ご注意ください。
 
 
@@ -35,4 +35,5 @@ Re:Earthは、WebGISとしての操作方法がありますが、Widget内はWeb
 
 # License
 Copyright (c) 2024 kardy0725(かーでぃ/かーでぃらぼ)
+
 "3D Temperature Graph by Babylon.js" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
