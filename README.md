@@ -20,7 +20,7 @@ Re:Earthのマーケットプレイスで公開しておりますが、うまく
 
 ③PCからZIPファイルをアップロード　→　これでインストールされるハズです。
 
-※githubからもインストールできました。
+※githubパブリックリポジトリからもインストールできました。
 
 https://github.com/kerdy0725/reearth3dTemp4babylonjs
 
