@@ -20,6 +20,10 @@ Re:Earthのマーケットプレイスで公開しておりますが、うまく
 
 ③PCからZIPファイルをアップロード　→　これでインストールされるハズです。
 
+※githubからもインストールできました。
+
+https://github.com/kerdy0725/reearth3dTemp4babylonjs
+
 # Usage
 
 設定すると、Rain / Temperature がプロパティから選択できます。
